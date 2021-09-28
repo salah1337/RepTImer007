@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.addEditWorkout.addEditStep.addEditStepFragment">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Step name: "
+            android:textColor="@color/gray2" />
+
+        <EditText
+            android:id="@+id/step_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            tools:text="kek" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:labelFor="@+id/step_duration_text"
+            android:text="Minutes"
+            android:textColor="@color/gray2" />
+
+        <EditText
+            android:id="@+id/step_minutes_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:inputType="number"
+            android:text="0"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/minute_error_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please make sure the duration value is between 0 and 60"
+        android:textColor="@color/red"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:labelFor="@+id/step_duration_text"
+            android:text="Seconds"
+            android:textColor="@color/gray2" />
+
+        <EditText
+            android:id="@+id/step_seconds_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:inputType="number"
+            android:text="0"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/seconds_error_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please make sure the duration value is between 0 and 60"
+        android:textColor="@color/red"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/checkbox_rest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rest step"
+        android:textColor="@color/white" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/button_add"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="bottom|end"
+            android:backgroundTint="@color/green"
+            android:scaleType="center"
+            android:src="@drawable/ic_check_icon"
+            app:fabCustomSize="70dp"
+            app:maxImageSize="30dp"
+            app:tint="@null"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/workoutsFragment">
+
+    <fragment
+        android:id="@+id/workoutsFragment"
+        android:name="com.example.reptimer007.ui.workouts.WorkoutsFragment"
+        android:label="Workout List"
+        tools:layout="@layout/fragment_workouts">
+        <action
+            android:id="@+id/action_workoutsFragment_to_addEditWorkoutFragment"
+            app:destination="@id/addEditWorkoutFragment" />
+        <action
+            android:id="@+id/action_workoutsFragment_to_stopWatchFragment"
+            app:destination="@id/stopWatchFragment" />
+        <action
+            android:id="@+id/action_workoutsFragment_to_playWorkoutFragment"
+            app:destination="@id/playWorkoutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addEditWorkoutFragment"
+        android:name="com.example.reptimer007.ui.addEditWorkout.addEditWorkoutFragment"
+        android:label="Edit Workout"
+        tools:layout="@layout/fragment_add_edit_workout">
+        <argument
+            android:name="workout"
+            android:defaultValue="@null"
+            app:argType="com.example.reptimer007.data.Workout"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_addEditWorkoutFragment_to_addEditStepFragment"
+            app:destination="@id/addEditStepFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stopWatchFragment"
+        android:name="com.example.reptimer007.ui.stopWatch.stopWatchFragment"
+        android:label="Stop Watch" />
+    <fragment
+        android:id="@+id/playWorkoutFragment"
+        android:name="com.example.reptimer007.ui.playWorkout.playWorkoutFragment"
+        android:label="Play Workout"
+        tools:layout="@layout/fragment_play_workout">
+        <argument
+            android:name="workout"
+            app:argType="com.example.reptimer007.data.Workout" />
+    </fragment>
+    <fragment
+        android:id="@+id/addEditStepFragment"
+        android:name="com.example.reptimer007.ui.addEditWorkout.addEditStep.addEditStepFragment"
+        android:label="Edit Step">
+        <argument
+            android:name="step"
+            android:defaultValue="@null"
+            app:argType="com.example.reptimer007.data.Step"
+            app:nullable="true" />
+        <argument
+            android:name="workout"
+            app:argType="com.example.reptimer007.data.Workout" />
+    </fragment>
+    <dialog
+        android:id="@+id/deleteDialogFragment"
+        android:name="com.codinginflow.mvvmtodo.ui.deleteDialog.DeleteDialogFragment"
+        android:label="DeleteDialogFragment" >
+        <argument
+            android:name="workout"
+            app:argType="com.example.reptimer007.data.Workout"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="step"
+            app:argType="com.example.reptimer007.data.Step"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </dialog>
+    <action android:id="@+id/action_global_deleteDialogFragment" app:destination="@id/deleteDialogFragment" />
+</navigation>

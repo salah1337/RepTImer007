@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-anydpi/ic_add_item.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable/fragment_play_workout.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable/ic_add_item.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable/ic_pause_icon.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable/ic_play_icon.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable/ic_redo_icon.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable/ic_stopwatch.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.34010416666666665" />
+        <entry key="app/src/main/res/layout/fragment_add_edit_step.xml" value="0.37389380530973454" />
+        <entry key="app/src/main/res/layout/fragment_add_edit_workout.xml" value="0.25722543352601157" />
+        <entry key="app/src/main/res/layout/fragment_add_step_modal.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/fragment_play_workout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_routines.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_timer.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_workouts.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/item_step.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/item_timer_laps.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/item_workout.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/routine.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/menu/workouts_task_menu.xml" value="0.35520833333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
