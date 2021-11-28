@@ -21,3 +21,8 @@ Workout timing app that i made to practice android!
 |<img src="https://raw.githubusercontent.com/salah1337/RepTImer007/master/home.png" height="300px">|  <img src="https://raw.githubusercontent.com/salah1337/RepTImer007/master/workout_play_on.png" height="300px">|<img src="https://raw.githubusercontent.com/salah1337/RepTImer007/master/workout_play_off.png" height="300px"> |
 | <img src="https://raw.githubusercontent.com/salah1337/RepTImer007/master/workout_play_finished.png" height="300px">|  <img src="https://raw.githubusercontent.com/salah1337/RepTImer007/master/workout_play_off.png" height="300px">|<img src="https://raw.githubusercontent.com/salah1337/RepTImer007/master/workout_search.png" height="300px"/>|
 |<img src="https://raw.githubusercontent.com/salah1337/RepTImer007/master/step_edit.png" height="300px"/>  | <img src="https://raw.githubusercontent.com/salah1337/RepTImer007/master/timer_off.png" height="300px"/>|<img src="https://raw.githubusercontent.com/salah1337/RepTImer007/master/timer_on.png" height="300px"/>|
+
+
+<a href="https://play.google.com/store/apps/details?id=com.codinginflow.reptimer007" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none"><img src="https://www.niftybuttons.com/googleplay/googleplay-button2.png"></a>
+
+(app may not run on all devices, currently debugging it!)
